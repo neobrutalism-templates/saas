@@ -1,17 +1,12 @@
-# NextJS starter template
+<img src="public/preview.png" />
 
-This template is for neobrutalism template creators (for this organization) who want to start building asap, without having to install and set everything from scratch.
+# Saas
 
-This template includes:
-
-- nextjs 14
-- tailwind (with default variables from [styling docs](https://neobrutalism-components.vercel.app/docs/styling))
-- eslint + prettier (with plugin for sorting tailwind classnames)
-- cn utility function
+Saas is a neobrutalism-styled nextjs tailwind template for saas landing pages.
 
 ## Get started
 
-Once you join this organization (message me on [twitter](https://x.com/samuelbreznjak), and I'll send you an invite) make a new repo in this organization by clicking the "Use this template" button on the top right.
+[Create a new repo](https://github.com/neobrutalism-templates/saas/generate) from this template.
 
 ### Installation
 
@@ -28,3 +23,17 @@ To run the app locally:
 ```bash
 pnpm run dev
 ```
+
+### Config
+
+- Inside `layout.tsx` update the metadata
+- Update the `favicon.ico`
+- Inside `page.tsx` update the content
+
+### Sections
+
+All content is split into sections so you can edit it more easily.
+
+### Styling
+
+To change the styling visit [styling docs](https://neobrutalism-components.vercel.app/docs/styling), and copy the desired styling to tailwind config like it's shown in the styling docs.
