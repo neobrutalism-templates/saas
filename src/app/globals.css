@@ -11,6 +11,7 @@
 body {
   --sb-track-color: #ffffff;
   --sb-thumb-color: #000000;
+  @apply text-text dark:text-darkText;
 }
 
 body::-webkit-scrollbar {

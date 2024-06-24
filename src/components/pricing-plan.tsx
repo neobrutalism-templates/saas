@@ -16,12 +16,12 @@ export default function PricingPlan({
   price: string
 }) {
   return (
-    <div className="flex flex-col justify-between rounded-base border-2 border-black bg-white p-5">
+    <div className="border-border dark:border-darkBorder dark:bg-darkBg flex flex-col justify-between rounded-base border-2 bg-white p-5">
       <div>
         <div className="flex items-center justify-between">
           <h3 className="text-2xl font-heading">{planName}</h3>
           {mostPopular && (
-            <span className="rounded-base border-2 border-black bg-main px-2 py-0.5 text-sm">
+            <span className="border-border text-text dark:border-darkBorder rounded-base border-2 bg-main px-2 py-0.5 text-sm">
               Most popular
             </span>
           )}
