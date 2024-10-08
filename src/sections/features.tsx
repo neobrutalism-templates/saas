@@ -121,7 +121,7 @@ export default function Features() {
 
             return (
               <div
-                className="border-border dark:border-darkBorder dark:bg-darkBg shadow-light dark:shadow-dark flex flex-col gap-3 rounded-base border-2 bg-white p-5"
+                className="border-border dark:border-darkBorder dark:bg-secondaryBlack shadow-light dark:shadow-dark flex flex-col gap-3 rounded-base border-2 bg-white p-5"
                 key={i}
               >
                 <Icon />
@@ -137,7 +137,7 @@ export default function Features() {
       </section>
       <div>
         <Marquee
-          className="border-y-border dark:border-y-darkBorder dark:border-darkBorder dark:bg-darkBg border-y-2 bg-white py-3 font-base sm:py-5"
+          className="border-y-border dark:border-y-darkBorder dark:border-darkBorder dark:bg-secondaryBlack border-y-2 bg-white py-3 font-base sm:py-5"
           direction="left"
         >
           {Array(10)

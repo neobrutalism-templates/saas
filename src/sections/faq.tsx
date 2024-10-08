@@ -69,7 +69,7 @@ export default function Faq() {
       </section>
       <div>
         <Marquee
-          className="border-y-border dark:border-y-darkBorder dark:border-darkBorder dark:bg-darkBg border-y-2 bg-white py-3 font-base sm:py-5"
+          className="border-y-border dark:border-y-darkBorder dark:border-darkBorder dark:bg-secondaryBlack border-y-2 bg-white py-3 font-base sm:py-5"
           direction="right"
         >
           {Array(10)
